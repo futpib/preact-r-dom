@@ -1,17 +1,15 @@
 'use strict';
-var React = require('react');
+var preact = require('preact');
 var classSet = require('classnames');
 var omit = require('just-omit');
-var ReactDOM = require('react-dom-factories');
+var elements = require('./elements.js');
 
 module.exports = r;
 
 // Export the React.DOM html tags
-for (var domTag in ReactDOM) {
-  if (ReactDOM.hasOwnProperty(domTag)) {
-    r[domTag] = createTagFn(domTag);
-  }
-}
+elements.forEach(function createEachElement(domTag) {
+  r[domTag] = createTagFn(domTag);
+});
 
 function r(component, properties, children) {
   // A properties object is optional so shift arguments if missing
@@ -39,12 +37,12 @@ function r(component, properties, children) {
   // When there's only one child, call createElement normally
   // to achieve a minor performance gain
   if (!Array.isArray(children)) {
-    return React.createElement(component, props, children);
+    return preact.h(component, props, children);
   }
 
   // When many children, use apply to prevent unnecessary key warnings
   var args = createArguments(component, props, children);
-  return React.createElement.apply(React, args);
+  return preact.h.apply(null, args);
 }
 
 // Wraps the classSet property value with `classnames` library

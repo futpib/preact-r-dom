@@ -1,7 +1,7 @@
 'use strict';
 var extend = require('xtend');
-var createReactClass = require('create-react-class');
-var DOM = require('react-dom-factories');
+var createReactClass = require('preact-compat').createClass;
+var preact = require('preact');
 
 var r = require('../../');
 
@@ -15,7 +15,7 @@ function createComponent(properties) {
           r.h1(this.props.title),
           // This tests that children are passed down correctly to
           // components that use React.DOM directly (and don't warn)
-          DOM.div(null, this.props.children)
+          preact.h('div', null, this.props.children)
         ])
       );
     }

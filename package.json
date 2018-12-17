@@ -1,8 +1,8 @@
 {
-  "name": "r-dom",
-  "description": "React DOM wrapper",
+  "name": "preact-r-dom",
+  "description": "Preact DOM wrapper",
   "version": "2.4.0",
-  "homepage": "https://github.com/uber/r-dom",
+  "homepage": "https://github.com/futpib/preact-r-dom",
   "contributors": [
     {
       "name": "Matt Morgan",
@@ -15,40 +15,40 @@
   ],
   "keywords": [
     "react",
+    "preact",
     "react.js",
     "markup",
     "dom"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/uber/r-dom.git"
+    "url": "git://github.com/futpib/preact-r-dom.git"
   },
   "bugs": {
-    "url": "https://github.com/uber/r-dom/issues"
+    "url": "https://github.com/futpib/preact-r-dom/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/uber/r-dom/blob/master/LICENSE"
+      "url": "https://github.com/futpib/preact-r-dom/blob/master/LICENSE"
     }
   ],
   "main": "index.js",
   "dependencies": {
     "classnames": "^2.2.5",
-    "just-omit": "^1.0.1",
-    "react-dom-factories": "^1.0.2"
+    "just-omit": "^1.0.1"
   },
   "peerDependencies": {
-    "react": "0.12.x - 16.x"
+    "preact": "*"
   },
   "devDependencies": {
-    "create-react-class": "^15.6.2",
     "for-each": "^0.3.2",
     "istanbul": "^0.3.5",
     "lint-trap": "^0.4.9",
     "opn": "^1.0.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4",
+    "preact-render-to-string": "^4.1.0",
     "tap-spec": "^1.0.0",
     "tape": "^3.0.0",
     "xtend": "^4.0.0"
