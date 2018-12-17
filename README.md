@@ -1,4 +1,4 @@
-# r-dom [![Build Status](https://travis-ci.org/futpib/preact-r-dom.svg?branch=master)](https://travis-ci.org/futpib/preact-r-dom)
+# preact-r-dom [![Build Status](https://travis-ci.org/futpib/preact-r-dom.svg?branch=master)](https://travis-ci.org/futpib/preact-r-dom)
 
 Preact DOM wrapper. ([r-dom](https://github.com/uber/r-dom) fork for Preact).
 
