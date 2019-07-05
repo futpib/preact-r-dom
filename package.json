@@ -44,7 +44,7 @@
   "devDependencies": {
     "for-each": "^0.3.2",
     "istanbul": "^0.4.0",
-    "lint-trap": "^0.4.9",
+    "lint-trap": "^1.0.0",
     "opn": "^5.0.0",
     "preact": "^8.4.2",
     "preact-compat": "^3.18.4",
