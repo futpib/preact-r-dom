@@ -46,7 +46,7 @@
     "istanbul": "^0.4.0",
     "lint-trap": "^0.4.9",
     "opn": "^5.0.0",
-    "preact": "^8.4.2",
+    "preact": "^10.0.0",
     "preact-compat": "^3.18.4",
     "preact-render-to-string": "^4.1.0",
     "tap-spec": "^1.0.0",
