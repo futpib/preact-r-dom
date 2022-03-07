@@ -36,7 +36,7 @@
   "main": "index.js",
   "dependencies": {
     "classnames": "^2.2.5",
-    "just-omit": "^1.0.1"
+    "just-omit": "^2.0.0"
   },
   "peerDependencies": {
     "preact": "*"

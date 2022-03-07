@@ -679,10 +679,10 @@ jsonstream2@^1.1.0:
     through2 "^0.6.1"
     type-component "0.0.1"
 
-just-omit@^1.0.1:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/just-omit/-/just-omit-1.1.0.tgz#ea507d3a251a36383d09e47324181d7f4acb2ea6"
-  integrity sha512-MBDr0a1Yyzht8KK3RS2oUKtJSKRrm+6txDuEFJOXoALnX4h+FcQyWSKVNDlZiClOSIRf1PkzJ+QkKm0pjLS7Mw==
+just-omit@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/just-omit/-/just-omit-2.0.1.tgz#25d5967424cc69a2ef4faa315ede1d5b7be3168c"
+  integrity sha512-gmMf9DSGjx+PJFr7P7zcZk4hpKvb/iLTmXjArvtvr2zg8JvcXyAjPtJItX4Lx8BCUk3UAtJiacu4no9h9mv6mg==
 
 levn@~0.2.5:
   version "0.2.5"
