@@ -958,10 +958,10 @@ preact-render-to-string@^3.8.2:
   dependencies:
     pretty-format "^3.5.1"
 
-preact-render-to-string@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-4.1.0.tgz#70d98a8385cb86558366c558aad7311ebecb881d"
-  integrity sha512-FlFBJRxo8z4cp6VsDmeYjIEx4ZK2clFJnKIvIj8K1IQCRm7ZgJ/SZ1+BotT86/Nc+V1pNtFabHoUi6gpjx5Pug==
+preact-render-to-string@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.0.0.tgz#18f75530099f323b56098b8b8e25643a394fd4f2"
+  integrity sha512-ROmdw0igiAlXW+XtLBBLkesI55dpBwo7i+LIRBEJDK4AyQv7rKaFZKb3SZ3YfurRH3wPb47xYvf+NMzlPdJ5mA==
   dependencies:
     pretty-format "^3.8.0"
 
